@@ -1,0 +1,13 @@
+fun bool isEven(int x) {
+  if (x == 0) {
+    return true;
+  }
+  return isOdd(x - 1);
+}
+fun bool isOdd(int x) {
+  if (x == 0) {
+    return false;
+  }
+  return isEven(x - 1);
+}
+print isEven(4);

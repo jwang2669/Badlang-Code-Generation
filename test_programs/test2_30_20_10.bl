@@ -1,0 +1,10 @@
+int x = 10;
+{
+  int x = 20;
+  {
+    int x = 30;
+    print x;
+  }
+  print x;
+}
+print x;

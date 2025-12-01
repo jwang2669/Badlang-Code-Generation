@@ -1,0 +1,10 @@
+fun int absolute(int n) {
+  if (n < 0) {
+    return -n;
+  }
+  return n;
+}
+int a = absolute(-42);
+int bb = absolute(7);
+print a;
+print bb;

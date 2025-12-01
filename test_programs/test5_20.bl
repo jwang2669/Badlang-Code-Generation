@@ -1,0 +1,5 @@
+fun int multiply(int a, int b) {
+  return a * b;
+}
+int result = multiply(2 + 3, 4);
+print result;

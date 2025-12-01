@@ -1,0 +1,6 @@
+bool a = true;
+bool bb = false;
+bool c = (a && bb) || (!bb && a);
+bool d = (a && (bb || c)) && !(a && bb);
+print c;
+print d;

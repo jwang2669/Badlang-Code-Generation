@@ -1,0 +1,13 @@
+fun int testScope(int n) {
+  int result = n * 2;
+  if (n > 5) {
+    int result = n * 3;
+    return result;
+  }
+  return result;
+}
+
+int x = testScope(3);
+int y = testScope(10);
+print x;
+print y;

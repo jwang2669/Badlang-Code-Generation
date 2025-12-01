@@ -1,0 +1,8 @@
+fun int addppp(int x, int y) {
+  return x + y;
+}
+fun int multiply(int x, int y) {
+  return x * y;
+}
+int result = addppp(2, multiply(3, 4));
+print result;

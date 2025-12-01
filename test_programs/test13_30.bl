@@ -1,0 +1,17 @@
+fun int power(int base, int exp) {
+  int result = 1;
+  while (exp > 0) {
+    result = result * base;
+    exp = exp - 1;
+  }
+  return result;
+}
+fun int sumPowers(int n) {
+  if (n <= 0) {
+    return 0;
+  } else {
+    return power(n, 2) + sumPowers(n - 1);
+  }
+}
+int total = sumPowers(4);
+print total;
